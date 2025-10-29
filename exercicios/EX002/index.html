@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+<style>
+    .netflix-logo {
+  width: 50px;
+  height: 250px;
+  background-color: #E50914; /* Vermelho da Netflix */
+  position: relative;
+}
+
+.netflix-logo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 90px;
+  width: 50px;
+  height: 250px;
+  background-color: #E50914;
+}
+
+.netflix-logo::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -15px;
+  width: 175px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%; /* Para um efeito de "N" arredondado */
+}
+
+.netflix-logo span {
+  position: absolute;
+  left: 46px;
+  width: 50px;
+  height: 250px;
+  background-color: #d90000; /* Vermelho um pouco mais claro */
+  transform: rotate(20deg); /* Inclina para simular o formato da "N" */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adiciona sombra para efeito visual */
+}
+</style>
+<body>
+
+</body>
+</html>
