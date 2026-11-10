@@ -1,2 +1,10 @@
 @charset "UTF 8";
 
+header > h1{
+    padding: 0px;
+    background-color: red;
+}
+
+h1#logo{
+    background-color: red;
+}
